@@ -1,0 +1,289 @@
+body{
+  
+}
+
+.app-container{
+  background-color: rgb(223 228 231);
+}
+
+.display{
+  display: flex;
+}
+
+.maindisplay{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  border: 2px solid black;
+}
+
+.header{
+  height: 12vh;
+  width: 50vw;
+  align-content: center;
+  background-color:rgb(135, 135, 135);
+  border-radius: 50px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.header img{
+  margin-left: 20px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5px 5px 5px;
+  width: 50vw;
+}
+
+.main-content{
+  height:73vh;
+  width: 50vw;
+  overflow-x: auto;
+  border-bottom: 2px solid black;
+}
+
+.main-content::-webkit-scrollbar {
+  display: none; 
+}
+
+.main-button{
+  width: 50vw;
+  display: flex;
+  padding: 10px;
+  align-content: center;
+  align-items: center;
+}
+
+.input-color{
+  width:45vw;
+  height: 8vh;
+  margin-right: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:none;
+}
+
+.main-button input::placeholder{
+  padding-left: 20px;
+}
+
+.message{
+  align-content: center;
+  height: 80px;
+}
+
+.border{
+  border: 10px solid black;
+}
+
+.login{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(212, 226, 239);
+  align-items: center;
+  align-content: center;
+}
+
+
+.form{
+  box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 50px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.label{
+  margin-bottom: 5px;
+  justify-content: start;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.input{
+  height: 25px;
+  border-top: 0px;
+  border-right: 0px; 
+  border-radius: 10px;
+  height: 40px;
+  width: 250px;
+}
+h1{
+  margin: 0px;
+}
+.heading{
+  margin-bottom: 40px;
+}
+.login-button{
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+span{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.avatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+.avatar-img{
+  shape-image-threshold: 50%;
+}
+.avatar-name{
+  margin-left: 25px;
+  color: black;
+}
+
+.sidebar-container{
+  padding-top: 10px;
+  background-color: rgb(254, 254, 254);
+  color: white;
+}
+
+hr.line{
+  border: 1.5px solid rgb(0, 0, 0);
+  margin: 1px 0px;
+}
+
+.contact-container{
+  display: flex;
+  margin:10px;
+}
+
+.contact-img{
+  margin-right: 20px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(196, 194, 194);
+  border-radius: 15px;
+  width: 17vw;
+  color: black;
+  cursor: pointer;
+}
+.time{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -10px;
+  margin-top: 15px;
+}
+.time-name{
+  margin-right: 100px;
+}
+.header-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+
+.main-receive{
+  max-width: 25vw;
+  margin: 10px 0px;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+
+}
+.main-send{
+  max-width: 25vw;
+  margin: 10px 0px;
+  margin-left: auto;
+  background-color: rgb(30, 61, 142);
+  color: white;
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.main-send h5{
+  margin-left: 10px;
+}
+
+.main-receive h5{
+  margin-left: 10px;
+}
+.submit-button{
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.chat{
+  color: black;
+  text-align: center;
+  margin-left: 55px;
+}
+
+.main-message p{
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+.main-message{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin:200px;
+}
+
+.people-container{
+  background-color: rgb(254, 254, 254);
+  color: white;
+}
+.people-heading{
+  height: 50px;
+}
+.people-heading p{
+  height: 50px;
+  color: black;
+  font-size: xx-large;
+  text-align: center;
+}
